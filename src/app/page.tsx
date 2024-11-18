@@ -1,5 +1,7 @@
 import React from 'react';
 import Markdown from 'markdown-to-jsx';
+import { FaGithubAlt } from 'react-icons/fa6';
+import { PiLinkedinLogoBold } from 'react-icons/pi';
 import Card from '@/components/Card';
 import Pill, { PILL_TYPE } from '@/components/Pill';
 import about from '@/data/about.json';
@@ -13,6 +15,10 @@ export default function Home() {
         <h1 className="text-2xl font-bold">{about.name}</h1>
         <h2 className="text-lg font-semi-bold">{about.title}</h2>
         <h3><Markdown>{about.blurb}</Markdown></h3>
+        <div className="flex gap-2">
+          <a href="https://www.linkedin.com/in/denise-rivera-c/"><PiLinkedinLogoBold /></a>
+          <a href="https://github.com/d-rivera-c"><FaGithubAlt /></a>
+        </div>
       </div>
 
       <div className="w-[100%] md:w-[50%] p-6 md:absolute right-0">
