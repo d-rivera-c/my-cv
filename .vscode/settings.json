@@ -1,0 +1,43 @@
+{
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true,
+    // eslint auto fix on save
+    // "[javascript, javascriptreact, jsx]": {
+    //   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    // },
+    // "eslint.nodePath": "/Users/niz/.nvm/versions/node/v18.10.0/bin/node",
+    // "editor.formatOnSaveMode": "file",
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll.eslint": true,
+    // },
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    // "eslint.options": {
+    //   "overrideConfigFile": ".eslintrc.local"
+    // },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "jsx"
+    ],
+    "eslint.lintTask.enable": true,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    // "[jsonc]": {
+    //   "editor.defaultFormatter": "vscode.json-language-features"
+    // },
+}

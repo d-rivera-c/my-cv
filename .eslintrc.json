@@ -1,3 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript", "airbnb"]
+  "extends": ["next/core-web-vitals", "next/typescript", "airbnb"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+   ],
+   "max-len": ["warn", { "code": 125, "ignoreUrls": true, "ignoreTrailingComments": true }]
+  }
 }
