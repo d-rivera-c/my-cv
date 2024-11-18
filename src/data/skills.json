@@ -1,0 +1,62 @@
+[
+    {
+        "skill": "Javascript",
+        "type": "LANGUAGE"
+    },
+    {
+        "skill": "AWS",
+        "type": "LANGUAGE"
+    },
+    {
+        "skill": "Jenkins",
+        "type": "LANGUAGE"
+    },
+    {
+        "skill": ".NET",
+        "type": "LANGUAGE"
+    },
+    {
+        "skill": "PHP",
+        "type": "LANGUAGE"
+    },
+    {
+        "skill": "React",
+        "type": "FRAMEWORK"
+    },
+    {
+        "skill": "Leaflet",
+        "type": "FRAMEWORK"
+    },
+    {
+        "skill": "Redux",
+        "type": "FRAMEWORK"
+    },
+    {
+        "skill": "Playwright",
+        "type": "FRAMEWORK"
+    },
+    {
+        "skill": "Rxjs",
+        "type": "FRAMEWORK"
+    },
+    {
+        "skill": "Jest",
+        "type": "FRAMEWORK"
+    },
+    {
+        "skill": "Cypress",
+        "type": "FRAMEWORK"
+    },
+    {
+        "skill": "Agile",
+        "type": "SOFT"
+    },
+    {
+        "skill": "Leadership",
+        "type": "SOFT"
+    },
+    {
+        "skill": "Mentor",
+        "type": "SOFT"
+    }
+]

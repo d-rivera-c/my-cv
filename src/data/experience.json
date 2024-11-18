@@ -1,0 +1,32 @@
+[
+    {
+        "employer": "Starboard",
+        "title": "Senior Software Engineer",
+        "time": "January 2022 - Present",
+        "description": "I’m working on an interesting and challenging product that tracks vessels at sea using satellite data. Part of my responsibilities include developing new features, squash bugs, and keep the energy of the team up. It has proven to be a different environment since the company doesn’t follow certain agile ceremonies, but we adapt and have been able to deliver a lot of interesting features like displaying historic sea temperature, wave height and wind conditions on the map, identify and display IUU (Illegal, Unreported and Unregulated) vessels and closely related ones, and integrate many external list into the map."
+    },
+    {
+        "employer": "BNZ",
+        "title": "Senior Software Developer",
+        "time": "November 2019 - December 2021",
+        "description": "I’m proud to have worked in an exciting product that brought together microfrontends, BFFs (Backend For Frontend) and a “platform” that ties them all, with the goal of providing bankers a great web experience to serve customers. I was across all parts of the product: assessing and suggesting new features, creating microfrontend applications, supporting and improving the platform, providing infrastructure and pipelines to other teams so they can also create microfrontends, maintaining and improving a generator so other teams have an easier time joining our solution, testing and monitoring the application, and finally documenting and teaching people how to use them all. I’ve had to work closely with other teams to hear feedback and generalize and improve our product."
+    },
+    {
+        "employer": "Hiplee",
+        "title": "Senior Software Developer",
+        "time": "March 2019 - October 2019",
+        "description": "Worked on frontend development of a Shopify app, but to get the features over the line I also worked on the backend when updates need to be done. Always aware of the big picture, I knew where the overall product was going and where our clients main painpoints were and fixed them in the most leanest way. I kept my eyes open for where our next challenge was coming from and implemented solutions to tackle them."
+    },
+    {
+        "employer": "Trade Me",
+        "title": "Senior .NET Developer",
+        "time": "June 2018 - March 2019",
+        "description": "Part of a Central team in charge of keeping Trade Me website functional. My responsibilities included implementing solutions while looking at the big picture and foresee how the changes could affect the whole application. Feature development involved coordinating with different teams and branches of Trade Me, explaining future changes and taking on board improvements or concerns suggested."
+    },
+    {
+        "employer": "Silverstripe",
+        "title": "Intermediate/Senior Developer",
+        "time": "April 2015 - August 2017",
+        "description": "Worked as a Web Developer and was promoted to Senior Developer during my time there. I was part of a bespoke team as a full-stack developer working on different projects for many clients, including NZTA, Skinny and Westpac."
+    }
+]
