@@ -1,19 +1,28 @@
+import Pill, { PillType } from './Pill'
+
 type CardType = {
     title: string,
     subtitle: string,
-    description: string
+    description: string,
+    pills: PillType[]|null
 }
 
-export default function Card({ title, subtitle, description}: CardType) {
+export default function Card({ title, subtitle, description, pills }: CardType) {
     return (
-        <div className="flex flex-row">
+        <div className="flex flex-row mb-8">
             <div className="w-[30%] pr-8">
                 <h5 className="text-xs uppercase">{subtitle}</h5>
             </div>
             <div className="w-[70%]">
-                <h4 className="uppercase font-bold">{title}</h4>
+                <h4 className="uppercase font-bold leading-none">{title}</h4>
 
                 <p className="text-justify">{description}</p>
+
+                {pills &&
+                    <div className='flex flex-wrap gap-2'>
+                        {pills.map((pill: PillType) => <Pill key={pill.name} name={pill.name} type={pill.type} />)}
+                    </div>
+                }
             </div>
         </div>
     )

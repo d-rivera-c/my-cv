@@ -4,7 +4,7 @@ export enum PILL_TYPE {
     SOFT = "SOFT"
 }
 
-type PillType = {
+export type PillType = {
     name: string,
     type: string,
     // level - strength
@@ -22,13 +22,13 @@ export default function Pill({name, type}: PillType) {
         }
         case PILL_TYPE.SOFT: {
             // typeColor = 'bg-orange-400';
-            typeColor = 'bg-gray-100';
+            typeColor = 'bg-gray-200';
             break;
         }
     }
 
     return (
-        <div className={`rounded-xl p-2 px-4 text-xs inline ${typeColor}`}>
+        <div className={`rounded-xl p-1 px-3 border border-gray-900 text-xs inline ${typeColor}`}>
             {name}
         </div>
     )

@@ -24,6 +24,10 @@
         "type": "FRAMEWORK"
     },
     {
+        "skill": "nodejs",
+        "type": "FRAMEWORK"
+    },
+    {
         "skill": "Leaflet",
         "type": "FRAMEWORK"
     },
@@ -56,7 +60,7 @@
         "type": "SOFT"
     },
     {
-        "skill": "Mentor",
+        "skill": "Mentorship",
         "type": "SOFT"
     }
 ]
