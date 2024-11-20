@@ -11,13 +11,23 @@ import skills from '@/data/skills.json';
 export default function Home() {
   return (
     <div className="flex flex-row flex-wrap justify-around">
-      <div className=" h-[100vh] w-[100%] md:w-[50%] px-6 flex flex-col justify-center font-mono md:fixed left-0">
-        <h1 className="text-2xl font-bold">{about.name}</h1>
-        <h2 className="text-lg font-semi-bold">{about.title}</h2>
-        <h3><Markdown>{about.blurb}</Markdown></h3>
-        <div className="flex gap-2">
-          <a href="https://www.linkedin.com/in/denise-rivera-c/"><PiLinkedinLogoBold /></a>
-          <a href="https://github.com/d-rivera-c"><FaGithubAlt /></a>
+      <div className=" h-[100vh] w-[100%] md:w-[50%] flex flex-col justify-center items-center font-mono md:fixed left-0">
+        <div className="w-fit flex flex-col">
+          <h1 className="text-2xl font-bold">{about.name}</h1>
+          <h2 className="text-lg font-semi-bold">{about.title}</h2>
+          <h3>
+            Helping you slay some
+            {' '}
+            <a href="https://en.wikipedia.org/wiki/Here_be_dragons" className="cursor-[url(/images/dragon-rawr-copy.png),_pointer]" target="blank">
+              dragons
+            </a>
+            {' '}
+            since 2009
+          </h3>
+          <div className="flex gap-2">
+            <a href="https://www.linkedin.com/in/denise-rivera-c/"><PiLinkedinLogoBold /></a>
+            <a href="https://github.com/d-rivera-c"><FaGithubAlt /></a>
+          </div>
         </div>
       </div>
 
