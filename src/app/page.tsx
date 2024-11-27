@@ -2,6 +2,7 @@ import React from 'react';
 import Markdown from 'markdown-to-jsx';
 import { FaGithubAlt } from 'react-icons/fa6';
 import { PiLinkedinLogoBold } from 'react-icons/pi';
+import Link from 'next/link';
 import Card from '@/components/Card';
 import Pill, { PILL_TYPE } from '@/components/Pill';
 import about from '@/data/about.json';
@@ -24,9 +25,14 @@ export default function Home() {
             {' '}
             since 2009
           </h3>
-          <div className="flex gap-2">
-            <a href="https://www.linkedin.com/in/denise-rivera-c/"><PiLinkedinLogoBold /></a>
-            <a href="https://github.com/d-rivera-c"><FaGithubAlt /></a>
+          <div className="flex justify-between">
+            <div className="flex gap-2">
+              <a href="https://www.linkedin.com/in/denise-rivera-c/"><PiLinkedinLogoBold /></a>
+              <a href="https://github.com/d-rivera-c"><FaGithubAlt /></a>
+            </div>
+            <div>
+              <Link href="/colors" className="filter-none text-purple-300 text-xs">A bit of color?</Link>
+            </div>
           </div>
         </div>
       </div>

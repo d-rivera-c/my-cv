@@ -12,6 +12,6 @@
         "tsx": "never"
       }
    ],
-   "max-len": ["warn", { "code": 125, "ignoreUrls": true, "ignoreTrailingComments": true }]
+   "max-len": ["warn", { "code": 165, "ignoreUrls": true, "ignoreTrailingComments": true }]
   }
 }

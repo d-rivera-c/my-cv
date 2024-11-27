@@ -2,6 +2,7 @@ import React from 'react';
 import Pill, { PillType } from './Pill';
 
 type CardType = {
+  theme: string,
   title: string,
   subtitle: string,
   description: string,
@@ -9,7 +10,7 @@ type CardType = {
 }
 
 export default function Card({
-  title, subtitle, description, pills,
+  theme, title, subtitle, description, pills,
 }: CardType) {
   return (
     <div className="flex flex-row mb-8">
@@ -24,7 +25,7 @@ export default function Card({
         {pills
           && (
             <div className="flex flex-wrap gap-2">
-              {pills.map((pill: PillType) => <Pill key={pill.name} name={pill.name} type={pill.type} />)}
+              {pills.map((pill: PillType) => <Pill key={pill.name} theme={theme} name={pill.name} type={pill.type} />)}
             </div>
           )}
       </div>

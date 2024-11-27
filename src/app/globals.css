@@ -20,6 +20,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-  margin: 1rem 0
+@layer base {
+  p {
+    margin: 1rem 0
+  }
 }
