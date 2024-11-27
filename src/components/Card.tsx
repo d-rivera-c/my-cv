@@ -2,7 +2,7 @@ import React from 'react';
 import Pill, { PillType } from './Pill';
 
 type CardType = {
-  theme: string,
+  theme?: string,
   title: string,
   subtitle: string,
   description: string,

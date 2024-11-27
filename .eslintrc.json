@@ -2,6 +2,7 @@
   "extends": ["next/core-web-vitals", "next/typescript", "airbnb"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/require-default-props": "off",
     "import/extensions": [
       "error",
       "ignorePackages",

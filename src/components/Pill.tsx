@@ -7,7 +7,7 @@ export enum PILL_TYPE {
 }
 
 export type PillType = {
-  theme: string,
+  theme?: string,
   name: string,
   type: string,
   // level - strength
