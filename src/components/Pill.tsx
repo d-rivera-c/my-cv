@@ -1,4 +1,7 @@
-import React from 'react';
+'use client';
+
+import React, { useContext } from 'react';
+import { ThemeContext } from '@/contexts/ThemeContext';
 
 export enum PILL_TYPE {
   LANGUAGE = 'LANGUAGE', // eslint-disable-line no-unused-vars
@@ -7,13 +10,14 @@ export enum PILL_TYPE {
 }
 
 export type PillType = {
-  theme?: string,
   name: string,
   type: string,
   // level - strength
 }
 
-export default function Pill({ name, type, theme }: PillType) {
+export default function Pill({ name, type }: PillType) {
+  const theme = useContext(ThemeContext);
+
   let typeColor = 'bg-gray-100';
   let textColor = 'text-black';
   let borderColor = 'border-gray-900';

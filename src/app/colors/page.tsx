@@ -12,8 +12,6 @@ export default function Home() {
   return (
     <div className=" h-[100vh] overflow-scroll bg-[linear-gradient(60deg,_#ff9904_50%,_#995bbf_50%)]">
       <div className="flex flex-col px-[10%] md:px-[20%] bg-[#ff9904] bg-clip-text text-[transparent] [filter:drop-shadow(1px_1px_#582f0e)]">
-        {/* <div> */}
-        {/* <div> */}
         <h1 className="text-2xl font-bold mt-32 font-mono">
           Well, hello there!
         </h1>
@@ -49,7 +47,7 @@ export default function Home() {
         <div>
           <h4 className="text-lg mt-10 font-mono mb-2">Skills</h4>
           <ul className="flex flex-wrap gap-2">
-            {skills.map((skill) => <li key={skill.skill}><Pill theme="colors" name={skill.skill} type={skill.type} /></li>)}
+            {skills.map((skill) => <li key={skill.skill}><Pill name={skill.skill} type={skill.type} /></li>)}
           </ul>
         </div>
 
@@ -57,12 +55,11 @@ export default function Home() {
           <h4 className="text-lg mt-10 font-mono mb-2">Experience</h4>
           {experience.map((exp) => {
             const jobSkills = exp.skills.map((skill) => (
-              { theme: 'colors', name: skill, type: skills.find((s) => s.skill === skill)?.type || PILL_TYPE.LANGUAGE }
+              { name: skill, type: skills.find((s) => s.skill === skill)?.type || PILL_TYPE.LANGUAGE }
             ));
             return (
               <Card
                 key={exp.employer}
-                theme="colors"
                 title={exp.employer}
                 subtitle={exp.time}
                 description={exp.description}
